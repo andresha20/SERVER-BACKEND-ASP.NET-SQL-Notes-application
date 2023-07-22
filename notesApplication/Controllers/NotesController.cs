@@ -6,8 +6,8 @@ using System.Net;
 
 namespace notesApplication.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class NotesController : ControllerBase
     {
         private readonly NoteContext note_Context;
@@ -80,7 +80,8 @@ namespace notesApplication.Controllers
             }
         }
 
-        public async Task<ActionResult<Note>> DeleteNote(int id)
+        [HttpDelete]
+        public async Task<ActionResult> DeleteNote(int id)
         {
             try
             {
