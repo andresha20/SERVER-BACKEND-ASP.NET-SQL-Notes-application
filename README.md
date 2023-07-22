@@ -3,7 +3,7 @@ This project is a simple backend built on top of ASP.NET Web Core to handle CRUD
 
 # DEVELOPMENT DATA:
 1. This is the backend built with ASP.NET and SQL for the Notes Application. Resources used:
-2. This backend is attached to the frontend  <a href="https://github.com/andresha20/CLIENT-FRONTEND-React" target="_blank"> Murad GitHub </a> repository.
+2. This backend is attached to the frontend  <a href="https://github.com/andresha20/CLIENT-FRONTEND-React" target="_blank">THIS</a> repository.
 
 # PACKAGES USED
 <ul>
