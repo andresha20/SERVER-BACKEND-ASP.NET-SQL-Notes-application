@@ -80,7 +80,7 @@ namespace notesApplication.Controllers
             }
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteNote(int id)
         {
             try
